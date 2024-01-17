@@ -1,0 +1,23 @@
+body {
+    background-color: lightskyblue;
+}
+
+.resume {
+    text-align: center;
+    background: fixed;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    align-items: center;
+}
+
+.miktyur h2 {
+    text-align: left;
+    align-items: center;
+}
+
+.section .miktyur .container {
+    align-items: center;
+}
