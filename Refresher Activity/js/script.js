@@ -7,6 +7,7 @@ function myMenuFunction(){
       menuBtn.className = "nav-menu";
     }
   }
+
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
   window.onscroll = function() {headerShadow()};
   function headerShadow() {
@@ -21,6 +22,15 @@ function myMenuFunction(){
       navHeader.style.lineHeight = "90px";
     }
   }
+
+/* ----- TYPING EFFECT ----- */
+var typingEffect = new Typed(".typedText",{
+  strings : ["Programmer","Developer","Leader","Dancer"],
+  loop : true,
+  typeSpeed : 100, 
+  backSpeed : 80,
+  backDelay : 2000
+})
 
 /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
  const sr = ScrollReveal({
